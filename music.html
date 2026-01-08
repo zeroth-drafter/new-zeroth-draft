@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music – Z3ROth DRAFT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="container">
+
+  <!-- NAV -->
+  <header class="site-nav">
+    <a href="index.html" class="nav-logo">Z3ROth DRAFT</a>
+    <nav class="nav-links">
+      <a href="music.html">music</a>
+      <a href="crochet.html">crochet</a>
+      <a href="clothes.html">clothes</a>
+      <a href="caps.html">caps</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <header class="hero">
+    <h1>Z3ROth DRAFT</h1>
+    <h2>music</h2>
+  </header>
+
+  <!-- GLOBAL AUDIO -->
+<audio id="globalAudio" preload="auto" playsinline></audio>
+
+
+  <!-- TRACKS -->
+  <section class="album-section">
+
+    <!-- TRACK 01 -->
+    <div class="track">
+
+      <div class="track-meta">
+        <span class="track-number">I</span>
+        <span class="track-title">GHAR</span>
+      </div>
+
+      <div class="album-art"
+           data-audio="music/track1.mp3"
+           data-hq="music/track1.wav">
+        <img src="assets/album1.jpg" alt="">
+        <button class="play-btn">▶</button>
+      </div>
+
+      <div class="music-actions">
+        <button class="btn secondary free-download">
+          Free Download
+          <span class="progress"></span>
+        </button>
+
+        <button class="btn primary paid-download">
+          Support Artist · HQ Download
+        </button>
+
+        <small class="download-note">
+          If a new tab opens, use your browser’s download option.
+        </small>
+      </div>
+
+    </div>
+
+    <!-- TRACK 02 -->
+    <div class="track">
+
+      <div class="track-meta">
+        <span class="track-number">II</span>
+        <span class="track-title">SICKSHIT</span>
+      </div>
+
+      <div class="album-art"
+           data-audio="music/track2.mp3"
+           data-hq="music/track2.wav">
+        <img src="assets/album2.jpg" alt="">
+        <button class="play-btn">▶</button>
+      </div>
+
+      <div class="music-actions">
+        <button class="btn secondary free-download">
+          Free Download
+          <span class="progress"></span>
+        </button>
+
+        <button class="btn primary paid-download">
+          Support Artist · HQ Download
+        </button>
+
+        <small class="download-note">
+          If a new tab opens, use your browser’s download option.
+        </small>
+      </div>
+
+    </div>
+
+    <!-- TRACK 03 -->
+    <div class="track">
+
+      <div class="track-meta">
+        <span class="track-number">III</span>
+        <span class="track-title">fREEFALLIN</span>
+      </div>
+
+      <div class="album-art"
+           data-audio="music/track3.mp3"
+           data-hq="music/track3.wav">
+        <img src="assets/album3.jpg" alt="">
+        <button class="play-btn">▶</button>
+      </div>
+
+      <div class="music-actions">
+        <button class="btn secondary free-download">
+          Free Download
+          <span class="progress"></span>
+        </button>
+
+        <button class="btn primary paid-download">
+          Support Artist · HQ Download
+        </button>
+
+        <small class="download-note">
+          If a new tab opens, use your browser’s download option.
+        </small>
+      </div>
+
+    </div>
+
+        <!-- TRACK 04 -->
+    <div class="track">
+
+      <div class="track-meta">
+        <span class="track-number">IV</span>
+        <span class="track-title">BMR</span>
+      </div>
+
+      <div class="album-art"
+           data-audio="music/track4.mp3"
+           data-hq="music/track4.wav">
+        <img src="assets/album4.jpg" alt="">
+        <button class="play-btn">▶</button>
+      </div>
+
+      <div class="music-actions">
+        <button class="btn secondary free-download">
+          Free Download
+          <span class="progress"></span>
+        </button>
+
+        <button class="btn primary paid-download">
+          Support Artist · HQ Download
+        </button>
+
+        <small class="download-note">
+          If a new tab opens, use your browser’s download option.
+        </small>
+      </div>
+
+    </div>
+
+    <!-- TRACK 05 -->
+    <div class="track">
+
+      <div class="track-meta">
+        <span class="track-number">V</span>
+        <span class="track-title">NOSTRADAMOUS</span>
+      </div>
+
+      <div class="album-art"
+           data-audio="music/track5.mp3"
+           data-hq="music/track5.wav">
+        <img src="assets/album5.jpg" alt="">
+        <button class="play-btn">▶</button>
+      </div>
+
+      <div class="music-actions">
+        <button class="btn secondary free-download">
+          Free Download
+          <span class="progress"></span>
+        </button>
+
+        <button class="btn primary paid-download">
+          Support Artist · HQ Download
+        </button>
+
+        <small class="download-note">
+          If a new tab opens, use your browser’s download option.
+        </small>
+      </div>
+
+    </div>
+
+    <!-- TRACK 03 -->
+
+  </section>
+
+</main>
+
+<!-- QR MODAL -->
+<div class="modal" id="qrModal">
+  <div class="modal-content">
+    <p><strong>Thank you for supporting independent art 🖤</strong></p>
+
+    <p style="font-size: 0.9rem; opacity: 0.85; margin-top: 0.6rem;">
+      Your support helps me create more music and release better quality versions.
+    </p>
+
+    <img src="assets/qr.png" alt="QR Code">
+
+    <button class="btn primary confirm-download">
+      I’ve Paid – Download HQ
+    </button>
+
+    <small style="margin-top: 0.6rem; opacity: 0.7;">
+      Truly grateful for your support.
+    </small>
+  </div>
+</div>
+
+<!-- GLOBAL PLAYER BAR -->
+<div id="playerBar" class="player-bar hidden">
+
+  <div class="player-left">
+    <img id="playerArt" src="" alt="album art">
+    <div class="player-info">
+      <span id="playerTrackNumber">I</span>
+      <span id="playerTrackTitle">Track Title</span>
+    </div>
+  </div>
+
+  <div class="player-center">
+    <div class="player-controls">
+      <button id="prevBtn">⏮</button>
+      <button id="playPauseBtn">▶</button>
+      <button id="nextBtn">⏭</button>
+      <button id="loopBtn">🔁</button>
+    </div>
+
+    <input
+      type="range"
+      id="progressBar"
+      value="0"
+      min="0"
+      max="100"
+      step="0.1"
+    />
+  </div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
